@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tugas Modul 2</string>
+    <string name="resep">Resep</string>
+    <string name="resep_masakan_khas_kota_gresik">Resep Masakan Khas Kota Gresik</string>
+    <string name="gbrbonggolan">gbrbonggolan</string>
+    <string name="romo">romo</string>
+    <string name="gbrpudak">gbrpudak</string>
+    <string name="otak">otak</string>
+    <string name="pudak">Pudak</string>
+    <string name="sego_romo">Sego Romo</string>
+    <string name="bonggolan">Bonggolan</string>
+    <string name="otak_otak_bandeng">Otak - Otak Bandeng</string>
+</resources>

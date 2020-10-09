@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF59D"
+    android:backgroundTint="#FFE082"
+    android:backgroundTintMode="src_in"
+    android:clipChildren="false"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/resep"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/header" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="348dp"
+        android:layout_height="36dp"
+        android:background="#9ED32F2F"
+        android:fontFamily="@font/almendra_italic"
+        android:text="@string/resep_masakan_khas_kota_gresik"
+        android:textAlignment="center"
+        android:textColor="#FFF8E1"
+        android:textColorHighlight="#6672BA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="411dp"
+        android:layout_height="136dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFE0B2"
+        android:backgroundTint="#FFCC80"
+        android:backgroundTintMode="screen"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <FrameLayout
+            android:layout_width="408dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="548dp"
+            android:background="#FFE0B2"
+            android:backgroundTint="#FFCC80"
+            android:backgroundTintMode="screen"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toStartOf="parent">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="215dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/gbrpudak"
+            app:srcCompat="@drawable/pudak" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/merienda_one"
+            android:text="@string/pudak"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="412dp"
+        android:layout_height="122dp"
+        android:layout_marginBottom="32dp"
+        android:background="#E6E3B168"
+        android:focusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="197dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/otak"
+            app:srcCompat="@drawable/otak" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/merienda_one"
+            android:text="@string/otak_otak_bandeng"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="413dp"
+        android:layout_height="132dp"
+        android:layout_marginTop="444dp"
+        android:background="#E6E3B168"
+        android:focusable="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/romo"
+            app:srcCompat="@drawable/romo" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/merienda_one"
+            android:text="@string/sego_romo"
+            android:textSize="18sp" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
